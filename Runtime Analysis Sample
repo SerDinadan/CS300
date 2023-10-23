@@ -1,0 +1,10 @@
+
+Vector Code	
+Line Cost	# Times Executes	Total Cost
+for all courses	1	n	n
+     if the course is the same as courseNumber	1	n	n
+         print out the course information	2	1	1
+         for each prerequisite of the course	1	n	n
+           print the prerequisite course information	2	n	n
+Total Cost	4n + 1
+Runtime	O(n)
