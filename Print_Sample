@@ -1,0 +1,10 @@
+// Print courses
+
+void BinarySearchTree::printSampleSchedule(Node* node) {
+	if (node != nullptr) {
+		printSampleSchedule(node->left);
+		cout << node->course.courseNum << ", " << node->course.courseName << endl;
+		printSampleSchedule(node->right);
+	}
+	return;
+}
